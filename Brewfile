@@ -52,8 +52,7 @@ brew "jq"                        # JSON processor
 # macOS-specific
 # ============================================
 
-# Font installation - Nerd Fonts for all presets
-tap "homebrew/cask-fonts"
+# Font installation - Nerd Fonts for all presets (now in main cask repo)
 cask "font-jetbrains-mono-nerd-font"
 cask "font-fira-code-nerd-font"
 cask "font-caskaydia-cove-nerd-font"
