@@ -9,7 +9,7 @@ What’s included:
 No helper scripts or aliases are included; everything is manual.
 
 ## Setup
-1) Copy/clone this repo to `~/.config/ghostty`.
+1) clone the repo into your congif `git clone git@github.com:AlexisZankowitch/ghostty-warp.git ~/.config/ghostty`
 2) Install shell tools (optional but expected):  
    `brew bundle --file=Brewfile`
 3) Restart Ghostty.
