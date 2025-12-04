@@ -6,13 +6,12 @@ What’s included:
 - `fonts/fira-code.conf` – font settings reference.
 - `Brewfile` – shell tooling (fzf/fd, zsh plugins, zoxide, atuin, starship, a few CLI niceties).
 
-No helper scripts or aliases are included; everything is manual.
-
 ## Setup
-1) clone the repo into your congif `git clone git@github.com:AlexisZankowitch/ghostty-warp.git ~/.config/ghostty`
-2) Install shell tools (optional but expected):  
+1) install ghostty [macos installation](https://ghostty.org/docs/install/binary#macos)
+2) clone the repo into your congif `git clone git@github.com:AlexisZankowitch/ghostty-warp.git ~/.config/ghostty`
+3) Install shell tools (optional but expected):  
    `brew bundle --file=Brewfile`
-3) Restart Ghostty.
+4) Start Ghostty from your application
 
 ## zsh configuration
 See `zshrc-notes.md` for the small block to add to your `~/.zshrc` if you want the shell tooling enabled.
