@@ -1,18 +1,6 @@
 # ==============================================
-# Ghostty + Zsh Complete Environment - Brewfile
-# ==============================================
-# Install all dependencies with: brew bundle
-# Usage: brew bundle [--file=Brewfile]
-
-# ============================================
-# Core Tools
-# ============================================
-
-# GitHub CLI - Required for repository management
-brew "gh"
-
-# Git - Version control
-brew "git"
+# Ghostty + Zsh tools
+# Install with: brew bundle --file=Brewfile
 
 # ============================================
 # Shell Enhancements
@@ -33,10 +21,6 @@ brew "atuin"                     # Advanced shell history
 # Prompt
 brew "starship"                  # Modern prompt
 
-# Version Managers
-brew "mise"                      # Universal version manager
-brew "fnm"                       # Fast Node manager
-
 # ============================================
 # Optional but Recommended
 # ============================================
@@ -52,11 +36,8 @@ brew "jq"                        # JSON processor
 # macOS-specific
 # ============================================
 
-# Font installation - Nerd Fonts for all presets (now in main cask repo)
-cask "font-jetbrains-mono-nerd-font"
+# Font (for this config)
 cask "font-fira-code-nerd-font"
-cask "font-caskaydia-cove-nerd-font"
-cask "font-iosevka-nerd-font"
 
 # ============================================
 # Notes
