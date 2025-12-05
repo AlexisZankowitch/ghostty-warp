@@ -1,4 +1,6 @@
-# Ghostty Minimal Config (Catppuccin Mocha + Fira Code)
+# Ghostty warped setup
+
+Inspired by: https://github.com/Arakiss/ghostty-warp
 
 What’s included:
 - `config` – active Ghostty config (Catppuccin Mocha + Fira Code, keybindings).
